@@ -1,0 +1,3 @@
+gsutil mb --retention 60d gs://manishpachauri1
+gsutil cp index.html gs://manishpachauri1
+gsutil -m acl set -R -a public-read gs://manishpachauri1
